@@ -1,8 +1,8 @@
 FROM node:lts-alpine
-RUN mkdir backend
-RUN cd backend
-WORKDIR /backend
+RUN mkdir frontend
+RUN cd frontend
+WORKDIR /frontend
 COPY . .
 RUN npm install
 CMD [ "npm", "start" ]
-EXPOSE 3100
+EXPOSE 3000
