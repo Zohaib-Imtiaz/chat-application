@@ -12,8 +12,11 @@ export default function Login() {
         />
       </Head>
       <main className="w-3/4 max-w-[500px]">
-        <form className="grid w-3/4 max-w-[500px] gap-2" onSubmit={(e) => e.preventDefault()}>
-          <div className="group flex flex-col place-content-between my-2">
+        <form
+          className="grid w-3/4 max-w-[500px] gap-2"
+          onSubmit={(e) => e.preventDefault()}
+        >
+          <div className="group my-2 flex flex-col place-content-between">
             <input
               className="peer rounded-full border border-violet-400 px-3 py-1 focus:outline-violet-400"
               type={"text"}
@@ -26,7 +29,7 @@ export default function Login() {
               Email
             </label>
           </div>
-          <div className="group flex flex-col place-content-between my-2">
+          <div className="group my-2 flex flex-col place-content-between">
             <input
               className="peer rounded-full border border-violet-400 px-3 py-1 focus:outline-violet-400"
               type={"text"}
