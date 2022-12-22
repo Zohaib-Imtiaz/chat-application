@@ -3,7 +3,7 @@ import Avatar from "./avatar";
 
 export default function ConversationTile() {
   return (
-    <div className="mt-2 mr-1 flex flex-row rounded-md p-2 hover:bg-orange-300">
+    <div className="mt-2 mr-1 flex flex-row rounded-md p-2 hover:cursor-pointer hover:bg-orange-300">
       <div className="relative">
         <Avatar size="large" />
         <div className="absolute right-2 bottom-[6px] h-3 w-3 rounded-full border-2 border-white bg-emerald-700" />

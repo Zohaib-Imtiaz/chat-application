@@ -12,7 +12,7 @@ export default function MessageInput() {
         viewBox="0 0 24 24"
         strokeWidth={1.5}
         stroke="currentColor"
-        className="mt-2 h-6 w-6"
+        className="mt-2 h-6 w-6 hover:cursor-pointer"
       >
         <path
           strokeLinecap="round"
